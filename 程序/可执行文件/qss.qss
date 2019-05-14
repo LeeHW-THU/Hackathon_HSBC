@@ -1,0 +1,57 @@
+QMainWindow,QWidget{
+    background-color:"white";
+}
+#logo{
+    background-image:url('img\logo.png');
+}
+#hz{
+    background-image:url('img\huizhang.png');
+}
+QLineEdit{
+    font: 18pt "Adobe Arabic";
+    background-color:#1a1819;
+    border:2px solid #524e4d;
+    color:white;
+    border-radius:10px;
+}
+#list_custom_edit{
+    background-color:#1a1819;
+    color:white;
+}
+#textEdit_2{
+    border:none;
+    font: 20pt "Adobe Arabic";
+}
+QLabel{
+    font: 75 12pt "Adobe Arabic";
+    border:0px solid ;
+}
+
+QPushButton{
+    background-color:#9f9b9c;
+    font: 75 9pt "Adobe Arabic";
+    border-radius:6px;
+    border:3px solid #9f9b9c;
+    padding:2px 3px;
+}
+QPushButton::hover{
+    background-color:#b4b0b1;
+}
+QPushButton::pressed{
+    border-top-color:white;
+    border-bottom-color:black;
+}
+#search{
+    font: 12pt;
+    background-color:#1a1819;
+    border:3px solid #524e4d;
+    color:white;
+    border-radius:10px;
+}
+#search::hover{
+    background-color:#323031;
+}
+#search::pressed{
+    border-top-color:white;
+    border-bottom-color:black;
+}
